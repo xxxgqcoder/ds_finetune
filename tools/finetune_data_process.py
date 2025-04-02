@@ -89,6 +89,6 @@ for data_path, func in parser_config.items():
     processed_data.extend(parsed_data)
 
 print(f'total {len(processed_data)} processed records')
-with open(processed_data_save_path, 'w') as f:
-    json.dump(processed_data, f)
+with open(processed_data_save_path, 'w', encoding='utf8') as f:
+    json.dump(processed_data, f, ensure_ascii=False, indent=4)
     print(f'processed data saved to {processed_data_save_path}')
