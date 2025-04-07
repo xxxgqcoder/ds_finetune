@@ -73,13 +73,11 @@ def parse_zixun_data(data_path):
 # }
 # processed_data_save_path = '/Users/xcoder/aDrive/dataset/law_finetune/finetune_processed_train.json'
 
-
 parser_config = {
     '/Users/xcoder/aDrive/dataset/law_finetune/zixun_gpt4.json':
     parse_zixun_data,
 }
 processed_data_save_path = '/Users/xcoder/aDrive/dataset/law_finetune/finetune_processed_eval.json'
-
 
 processed_data = []
 for data_path, func in parser_config.items():
