@@ -8,4 +8,4 @@ apt-get update
 
 apt-get install -y build-essential git-all
 
-pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple unsloth datasets huggingface-hub transformers
+pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple unsloth datasets huggingface-hub transformers wandb
